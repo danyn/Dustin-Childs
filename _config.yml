@@ -20,10 +20,10 @@
 #repository is required/helps github-pages gem it's a good idea to include
 # need to call api to find it from list of repos
 
-repository: 131331861
-repository_url: https://github.com/danyn/Jekyll-AMPS
+# repository: 131331861
+repository_url: https://github.com/danyn/Dustin-Childs
 url: https://danyn.github.io
-baseurl: /Jekyll-AMPS
+baseurl: /Dustin-Childs
 permalink: /:categories/:title/
 country: CA
 lang: en

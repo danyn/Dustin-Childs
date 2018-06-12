@@ -1,14 +1,16 @@
 
 <div class="home-above-fold relative">
-	<div id="homeHeroImage">
+	<div id="homeHeroImage" class="clearfix">
 		
 
-		{%- include components/amp-img/amp-img.html src="main-image-desktop.png" alt="A build tool for AMPS on Jekyll" media="(min-width: 1281px)" width="965" height="702" layout="responsive"  -%}
+		<div class="hero-image hero-image--right">
+			{%- include components/amp-img/amp-img.html src="Dustin-Jack-Daniels 2.jpg" alt="A build tool for AMPS on Jekyll"  width="750" height="750" layout="responsive"  -%}
+		</div>
 
-		{%- include components/amp-img/amp-img.html src="main-image-tablet.png" alt="A build tool for AMPS on Jekyll" media="(min-width: 505px) and (max-width: 1280px)" width="500" height="364" layout="responsive"  -%} 
+		<div class="hero-image hero-image--left">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit ipsam mollitia eligendi, laborum non aut doloremque vel recusandae facere, libero cupiditate rem est iure exercitationem repellendus alias, modi deserunt? Quasi?</p>
+		</div>
 
-		{%- include components/amp-img/amp-img.html src="main-image-mobile.png" alt="A build tool for AMPS on Jekyll" media="(max-width: 504px)" width="311" height="497" layout="responsive"  -%} 
-	
 	</div>
 	<!-- #homeHeroImage -->
 
