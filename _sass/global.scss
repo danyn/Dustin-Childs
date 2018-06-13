@@ -4,12 +4,17 @@
 
 // global layout
 *, *:before, *:after{box-sizing: border-box;}
-.post-content, footer{
-    max-width:1500px;
+.main-wrapper{
+    max-width:1200px;
     margin: 0 auto;
+    background: $background-color;
+
+}
+.post-content, footer{
+
 }
 // color
-body{background: $background-color;}
+// body{background: $background-color;}
 
 
 // global typography
@@ -17,7 +22,7 @@ body{background: $background-color;}
 body, a{
     font-family: -apple-system, BlinkMacSystemFont, “Segoe UI”, “Roboto”, “Oxygen”, “Ubuntu”, “Cantarell”, “Fira Sans”, “Droid Sans”, “Helvetica Neue”, sans-serif;
     font-weight: 100;
-    color:rgb(83, 83, 83);
+    color:white;
 }
 p{
     font-weight: 300;

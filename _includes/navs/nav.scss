@@ -26,9 +26,9 @@
         display:block;
         padding:1em;
         cursor: pointer;
-        color:grey;
+        color:$nav-links-color;
         &:hover{
-            color:black;
+            color:$nav-link-color-hover;
         }
     }
     header{
