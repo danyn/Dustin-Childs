@@ -3,13 +3,12 @@
     
     width:100vw;
     color:white;
-    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#105099+0,0990ea+100 */
-    background: #105099; /* Old browsers */
-    background: -moz-linear-gradient(top, #105099 0%, #0990ea 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(top, #105099 0%,#0990ea 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom, #105099 0%,#0990ea 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#105099', endColorstr='#0990ea',GradientType=0 ); /* IE6-9 */
-   
+   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#680000+26,a54848+100 */
+    background: rgb(104,0,0); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(104,0,0,1) 26%, rgba(165,72,72,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(104,0,0,1) 26%,rgba(165,72,72,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(104,0,0,1) 26%,rgba(165,72,72,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#680000', endColorstr='#a54848',GradientType=0 ); /* IE6-9 */
     .toggle-wrapper{
         .toggle-sidebar{
             float:right;

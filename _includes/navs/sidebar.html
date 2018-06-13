@@ -1,4 +1,6 @@
 
+{%- assign default_paths = site.pages | map: "path" -%}
+{%- assign page_paths = site.header_pages | default: default_paths -%}
 
 <!-- Start Sidebar -->
 <amp-sidebar id="header-sidebar" class="" layout="nodisplay">
@@ -80,15 +82,10 @@
     {%- endif -%}
 
   </ul>
- 
+<!--  
   <ul class="sidebar-info">
-    <li class="button-dir">
-        {%- include  components/buttons/directions/button-directions.html  -%}
-    </li>
-    <li class="button-tel">
-        {%- include components/buttons/telephone/button-telephone.html -%}
-    </li>
-  </ul>
+    <li></li>
+  </ul> -->
  
 </amp-sidebar>
 <!-- End Sidebar -->

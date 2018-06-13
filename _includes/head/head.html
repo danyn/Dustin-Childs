@@ -60,6 +60,10 @@
 		<script async custom-element="amp-form" src="https://cdn.ampproject.org/v0/amp-form-0.1.js"></script>
 	{%- endif -%}
 
+	{%- if page.amp-soundcloud or site.amp-soundcloud -%} 
+	<script async custom-element="amp-soundcloud" src="https://cdn.ampproject.org/v0/amp-soundcloud-0.1.js"></script>
+	{%- endif -%}
+
 	
 	{%- if page.amp-lightbox or site.amp-lightbox -%} 
 		<script async custom-element="amp-lightbox" src="https://cdn.ampproject.org/v0/amp-lightbox-0.1.js"></script>
