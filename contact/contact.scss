@@ -2,6 +2,9 @@
 @import 'vars';
 
 .form-wrapper{
+	h1, h2,h3,h4{
+		color:white;
+	}
 	border: 1px solid rgb(236, 236, 236);
 	max-width:900px;
 	padding: $space-2;
@@ -54,14 +57,16 @@
 		}
 		input[type="submit"]{
 			padding:$space-2;
-			min-width: 200px;
+			display:block;
+			width:80%;
+			margin:0 auto;
 			text-align: center;
 			color:white;
-			background:$dark_green;
+			background:$dark_blue;
 			border:none;
 			border-radius: 6px;
 			&:hover{
-				background:$light_green;
+				background:$light_blue;
 			}
 
 		}
@@ -70,6 +75,6 @@
 
 .info{;
 	h2{
-		color: $logo-blue;
+		color: white;
 	}
 }
