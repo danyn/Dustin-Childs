@@ -23,7 +23,7 @@
 # repository: 131331861
 repository_url: https://github.com/danyn/Dustin-Childs
 url: https://danyn.github.io
-# baseurl: /Dustin-Childs
+cdn_baseurl: /Dustin-Childs
 permalink: /:categories/:title/
 country: CA
 lang: en

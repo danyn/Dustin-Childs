@@ -11,7 +11,7 @@
 	width="{{include.width}}"
 	height="{{include.height}}"
 	layout="{{include.layout}}"
-	src="{{site.url}}{{site.baseurl}}{%-if include.path -%}{{include.src}}{%- elsif page.permalink  -%}{{page.permalink}}{{include.src}}{%- elsif page.content-folder-%}{{page.content-folder}}{{include.src}}{%-endif-%}">
+	src="{{site.url}}{{site.cdn_baseurl}}{%-if include.path -%}{{include.src}}{%- elsif page.permalink  -%}{{page.permalink}}{{include.src}}{%- elsif page.content-folder-%}{{page.content-folder}}{{include.src}}{%-endif-%}">
 </amp-img>
 
 {% comment %}
