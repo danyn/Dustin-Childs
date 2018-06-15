@@ -4,21 +4,6 @@
 	<link rel="canonical" href="{{ site.url }}{{site.baseurl}}{{ page.url }}" />
 	<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
 	<style amp-custom>
-{% comment %}
-
-		{%- include head/css/basscss.css -%}
-		{%- include head/css/global.css -%}
-		{%- include head/css/navs/nav.css -%}
-
-		{%- if site.sidebar or page.sidebar-%}
-			{%- include head/css/navs/sidebar.css -%}
-		{%- endif -%}
-		{%- include head/css/navs/sidebar.css -%}
-
-		{%- include head/css/footer/footer.css -%}
-		
-{% endcomment %}
-
 		{%- if site.data.global-components -%}
 			{%- for css_include in site.data.global-components.css -%}
 				{%- include {{ css_include }} -%}
@@ -75,6 +60,7 @@
 	
 	 
 	{%- include head/seo-group.html -%}
+	
  <!-- feed meta -->
 {%- comment -%}
 	{%- feed_meta -%}
